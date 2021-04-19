@@ -1,0 +1,151 @@
+.grid-container{
+  display:grid;
+  grid-template-rows: 160px 300px 300px;
+  grid-gap: 20px;
+  text-align:center;
+}
+.grid-container-first, .grid-container-second , .grid-container-third{
+  display: grid;
+  grid-gap: 20px;
+}
+.grid-container-first{
+  grid-template-columns: auto auto;
+}
+.grid-container-second{
+  grid-template-columns: auto auto;
+}
+
+.grid-container-third{
+  grid-template-columns: auto auto;
+}
+/* Set Second level as grid system */
+.grid-11{
+  display:grid;
+  grid-template-columns: 8% auto 30%;
+  grid-gap: 20px;
+}
+.grid-12{
+  display: grid;
+  grid-template-columns:auto;
+  
+}
+.grid-21{
+display:grid;
+grid-template-columns: 35% auto;
+  grid-gap: 20px;
+}
+.grid-22{
+  display:grid;
+  grid-template-columns: auto;
+}
+.grid-31{
+  display:grid;
+  grid-template-columns:auto;
+}
+.grid-32{
+  display:grid;
+  grid-template-columns:auto;
+}
+/* Design for each child */
+.grid-111, .grid-112, .grid-113{
+  background-color:orange;
+  border:1px solid red;
+    border-radius: 2px;
+  opacity: 0.6;
+  transition:transform .2s;
+}
+.grid-111:hover{
+  opacity:1;
+  cursor:pointer;
+  color: red;
+  transform:scale(1.2);
+}
+.grid-112:hover{
+  opacity:1;
+  cursor:pointer;
+  color: red;
+  transform:scale(1.2);
+}
+.grid-113:hover{
+  opacity:1;
+  cursor:pointer;
+  color: red;
+  transform:scale(1.2);
+}
+
+.grid-111{
+  display:grid;
+}
+.grid-121{
+  background-color:#828282;
+  border: 1px solid black;
+    border-radius: 2px;
+  opacity: 0.6;
+  transition:transform .2s;
+}
+.grid-121:hover{
+  opacity:1;
+  color:white;
+  cursor:pointer;
+  transform: scale(1.2);
+}
+.grid-211, .grid-212{
+  background-color: red;
+  border: 1px solid #546545;
+    border-radius: 2px;
+  opacity: 0.6;
+  transition:transform .2s;
+}
+.grid-211:hover{
+  cursor: pointer;
+  color: yellow;
+  opacity:1;
+  transform: scale(1.2);
+}
+.grid-221{
+  background-color: #ff6666;
+    border-radius: 2px;
+  opacity: 0.6;
+  transition:transform .2s;
+}
+.grid-221:hover{
+  cursor: pointer;
+  color: red;
+  background-color:purple;
+  opacity:1;
+  transform: scale(1.2);
+}
+.grid-212:hover{
+  cursor: pointer;
+  color: yellow;
+  opacity:1;
+  transform: scale(1.2);
+}
+.grid-311{
+  background-color: #5353c6;
+    border-radius: 2px;
+ opacity: 0.6;
+  transition:transform .2s;
+}
+.grid-311:hover{
+  cursor: pointer;
+  color: white;
+  opacity:1;
+  transform: scale(1.2);
+}
+.grid-321{
+  background-color: #66ff1a;
+    border-radius: 2px;
+  opacity: 0.6;
+  transition:transform .2s;
+}
+.grid-321:hover{
+  cursor: pointer;
+  color: white;
+  opacity:1;
+  transform: scale(1.2);
+}
+/* Level 4 */
+.grid-1111{
+  margin: auto auto;
+}
